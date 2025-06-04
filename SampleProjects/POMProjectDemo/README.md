@@ -34,7 +34,6 @@ Selenium_POM/
 │ └── chromedriver.exe
 └── README.md
 
-
 ---
 
 ## ✅ Test Cases Covered
@@ -66,24 +65,24 @@ python -m SampleProjects.POMProjectDemo.Tests.login
 
 ⚠️ Make sure the path to chromedriver.exe is correctly set in your code.
 
-
-📊 Test Reports
+---
+## 📊 Test Reports
 
 HTML test reports are generated in: SampleProjects/POMProjectDemo/reports/
 Open the .html files in your browser to view the test results.
 ![Capture d'écran 2025-06-04 153600](https://github.com/user-attachments/assets/36fe7bde-76a9-4573-aabd-cb1e03cab3e0)
 
-
-🔧 Configuration
-WebDriver Path
+---
+## 🔧 Configuration
+### WebDriver Path
 
 The login.py file uses the following path (you can adjust as needed): 
 cls.service = Service("C:/Users/GUEST/Desktop/Selenium_POM/drivers/chromedriver.exe")
 
 Make sure this path is correct or place chromedriver.exe in a directory that is added to your system PATH.
 
-
-🙌 Author
+---
+## 🙌 Author
 Project created by Daoud Boukhelouf
 📧 Contact: boukheloufdaoud00@gmail.com
 
